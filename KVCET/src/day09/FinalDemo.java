@@ -4,7 +4,7 @@ final class Sample
 {
 	 int var=67;
 	
-    void display()
+     void display()
 	{
 //		var = 55;
 		System.out.println("Value :"+var);

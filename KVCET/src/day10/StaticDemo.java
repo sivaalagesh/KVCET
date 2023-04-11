@@ -4,11 +4,11 @@ class Student
 {
 	int roll;
 	String name;
-	 static String clg="KVCET";
+	static String clg="AU";
 	 
 	 static void change()
 	 {
-		 clg = "Karapaga Vinayaga Engineering College";
+		 clg = "Anna University";
 	 }
 	
 	void display(int roll, String name)
@@ -21,6 +21,7 @@ class Student
 	static 
 	{
 		clg = "KVCET - Affiliated to Anna University";
+		System.out.println(clg);
 	}
 }
 
